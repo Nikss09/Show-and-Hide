@@ -12,13 +12,13 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
 
     public void show(View view){
-        //textView.setAlpha(1);
-        textView.setVisibility(View.VISIBLE);
+        textView.setAlpha(1);
+        //textView.setVisibility(View.VISIBLE);
     }
 
     public void hide(View view){
-        //textView.setAlpha(0);
-        textView.setVisibility(View.INVISIBLE);
+        textView.setAlpha(0);
+        //textView.setVisibility(View.INVISIBLE);
     }
 
     @Override
